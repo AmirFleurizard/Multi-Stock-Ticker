@@ -1,0 +1,10 @@
+.pls-select{
+    margin-left: 25px;
+}
+.symbol-select{
+   height: none;
+   width: none;
+   padding: none;
+   margin-left: 50px;
+   border: none; 
+}

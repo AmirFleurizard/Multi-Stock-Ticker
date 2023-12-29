@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="UIStyle.css">
+  <meta charset="UTF-8">
+  <title>Multi-stock Selector</title>
+</head>
+
+<body>
+
+  <section>
+    <h1>Symbol Selection</h1>
+    Please select the stocks you would like to see the data of.
+  </section>
+
+  <form action="../graph/index.html" method="GET">
+    <div class="symbol-select">
+      <input type="checkbox" name="TSLA">
+      <label for="TSLA">TSLA</label><br>
+      <input type="checkbox" name="GME">
+      <label for="GME">GME</label><br>
+      <input type="checkbox" name="AMZN">
+      <label for="AMZN">AMZN</label><br>
+      <input type="checkbox" name="AAPL">
+      <label for="AAPL">AAPL</label><br>
+      <input type="checkbox" name="NFLX">
+      <label for="NFLX">NFLX</label><br>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+
+
+  <!-- 
+  <section>
+    <h2>Symbol Search</h2>
+    Look up the symbol of the stock here.
+  </section>
+  <div class="input">
+    <input class="input-symbol" type="search">
+  </div>
+  <div class="btn">
+    <button class=btn-search type="submit">Search</button>
+  </div>  -->
+
+</body>
+
+</html>

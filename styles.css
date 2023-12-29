@@ -1,0 +1,37 @@
+.main{
+    background-image: url("img/bg.jpg");
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+    background-size: auto;
+}
+.center{
+    text-align: center;
+}
+.header{
+    color: black;
+}
+.about{
+    margin: auto;
+    padding-top: 10em;
+    color:lightgrey
+}
+.btn{
+    display: block;
+    text-align: center;
+    padding: .67em;
+    cursor: pointer;
+    margin: auto;
+    color: lightgrey;
+    background-color: transparent;
+    border-style: dotted;
+    border-color: lightgrey;
+}
+.circle{
+    margin: auto;
+    background-color: gray;
+    opacity: 90%;
+    width:25em; 
+    height:25em;
+    border-radius: 25%;
+    text-align: center;
+}
